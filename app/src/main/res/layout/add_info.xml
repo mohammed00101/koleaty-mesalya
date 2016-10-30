@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/addInfoTitle"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:hint="العنوان"
+        android:textSize="25dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/addContentInfo"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.71"
+        android:hint="                 معلومة جديده............" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.22"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:weightSum="1">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="نشر"
+                android:id="@+id/postInfo"
+                android:layout_marginTop="20dp"
+                android:background="#365899"
+                android:textColor="#ffffff" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

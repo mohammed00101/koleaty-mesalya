@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".dialog.AddSection" >
+
+
+
+
+    <item android:id="@+id/addSection"
+        android:title=""
+        android:icon="@drawable/ic_plus"
+        app:showAsAction="always"
+        android:onClick="addSection"/>
+
+    <item
+        android:title=""
+        android:icon="@drawable/ic_menu_delete"
+        app:showAsAction="always"
+        android:onClick="deleteSection"/>
+</menu>

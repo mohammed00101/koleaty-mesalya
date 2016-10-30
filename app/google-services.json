@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "310807457918",
+    "firebase_url": "https://myfaculty.firebaseio.com",
+    "project_id": "firebase-myfaculty",
+    "storage_bucket": "firebase-myfaculty.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310807457918:android:466ca9257ed60d21",
+        "android_client_info": {
+          "package_name": "mno.mohamed_youssef.myfaculty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310807457918-c357er0j2699h77podttjkjs38n23c8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBThj2_XUq1RPkaxL-YX7a_uEGoHSyJv7Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

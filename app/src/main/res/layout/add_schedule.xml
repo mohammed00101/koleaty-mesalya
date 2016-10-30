@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaeaea">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:background="@drawable/custombspinner"
+            android:spinnerMode="dropdown"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addScheduleSubject" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:background="@drawable/custombspinner"
+            android:spinnerMode="dropdown"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addScheduleDoctor" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:background="@drawable/custombspinner"
+            android:spinnerMode="dropdown"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addScheduleType" />
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:background="@drawable/custombspinner"
+            android:spinnerMode="dropdown"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addScheduleplace" />
+
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_height="59dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="من"
+            android:id="@+id/from"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:textColor="#030303"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/time_from"
+            android:hint="00:00"
+            android:gravity="center"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/from" />
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_height="59dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="الى"
+            android:id="@+id/to"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:textColor="#020202"
+            android:layout_marginRight="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/time_to"
+            android:hint="00:00"
+            android:gravity="center"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/to" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="أضافة"
+        android:id="@+id/add_schedule"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textColor="#ffffff"
+        android:background="#172ad4" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

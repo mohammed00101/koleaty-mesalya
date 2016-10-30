@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_news"
+            android:title="أخر الأخبار"/>
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_schedule"
+            android:title="الجدول" />
+        <item
+            android:id="@+id/nav_locations"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="اماكن وقاعات الكلية" />
+
+        <item
+        android:id="@+id/nav_instructor"
+        android:icon="@drawable/ic_site"
+        android:title="أعضاء هيئة التدريس"/>
+
+
+        <item
+            android:id="@+id/nav_subject"
+            android:icon="@drawable/booksicon"
+            android:title="مواد الكلية"/>
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="معلومات يجب ان تعرفها"/>
+        <item
+            android:id="@+id/nav_team"
+            android:icon="@drawable/ic_tab_friends"
+            android:title="عن الفريق" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/natega"
+                android:icon="@drawable/ic_result"
+                android:title="النتيجة" />
+            <item
+                android:id="@+id/faculty_Group"
+                android:icon="@drawable/ic_group_f"
+                android:title="الجروب الرسمى للكلية"/>
+            <item
+                android:id="@+id/team_Group"
+                android:icon="@drawable/ic_group_team"
+                android:title="الجروب الرسمى للفريق"/>
+
+            <item
+                android:id="@+id/faculty_site"
+                android:icon="@drawable/ic_site"
+                android:title="موقع الكلية"/>
+
+
+            <item
+                android:id="@+id/faculty_sittings"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="الأعدادات"/>
+        </menu>
+    </item>
+
+</menu>

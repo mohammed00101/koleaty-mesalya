@@ -1,0 +1,113 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AuthBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        style="@style/AuthBackgroundImage"
+        android:contentDescription="@string/content_desc_background" />
+
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/AuthTitle"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="الجدول"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:id="@+id/editTextLayout"
+        style="@style/AuthFieldContainer"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#eaeaea">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="59dp">
+
+            <Spinner
+                android:background="@drawable/custombspinner"
+                android:spinnerMode="dropdown"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner_year"/>
+
+
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp">
+
+        <Spinner
+            android:id="@+id/spinner_Section"
+            android:background="@drawable/custombspinner"
+            android:spinnerMode="dropdown"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="59dp">
+        <Spinner
+            android:id="@+id/spinner_group"
+            android:background="@drawable/custombspinner"
+            android:spinnerMode="dropdown"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+     </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/buttonDivider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextLayout"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/button_divider"
+        android:contentDescription="@string/content_desc_button_divider"/>
+
+
+    <Button
+        android:id="@+id/creatStudent"
+        style="@style/AuthButton"
+        android:text="أنشاء"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextLayout"
+        android:layout_toLeftOf="@id/buttonDivider"
+        android:layout_marginRight="0dp" />
+
+    <Button
+        android:id="@+id/cancelStud"
+        style="@style/AuthButton"
+        android:text="ألغاء"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editTextLayout"
+        android:layout_toRightOf="@id/buttonDivider"
+        android:layout_marginLeft="0dp" />
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+

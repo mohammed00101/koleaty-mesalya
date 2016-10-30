@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/addTitle"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:hint="العنوان"
+        android:textSize="25dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/addContent"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.71"
+        android:hint="                      نص الخبر............" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.22"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/addimage"
+            android:src="@drawable/ic_team"
+            android:background="#cccccc" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:weightSum="1">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:id="@+id/addimageButton"
+                android:src="@drawable/ic_menu_camera"
+                android:layout_height="40dp"
+                android:background="#eae8e8" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="نشر"
+                android:id="@+id/postNews"
+                android:layout_marginTop="20dp"
+                android:background="#365899"
+                android:textColor="#ffffff" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+        </ScrollView>
+    </FrameLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/addSectionsTitle"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:hint="عنوان السكشن"
+                android:textSize="25dp" />
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.22"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="112dp"
+                    android:id="@+id/addSectionsimage"
+                    android:src="@drawable/ic_team"
+                    android:background="#cccccc" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:weightSum="1">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:id="@+id/addSectionsimageButton"
+                        android:src="@drawable/ic_menu_camera"
+                        android:layout_height="40dp"
+                        android:background="#eae8e8" />
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="نشر"
+                        android:id="@+id/postSections"
+                        android:layout_marginTop="20dp"
+                        android:background="#365899"
+                        android:textColor="#ffffff" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
